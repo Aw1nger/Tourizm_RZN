@@ -1,9 +1,51 @@
 .header {
   &__top {
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
+    padding: 14px 0;
+  }
+
+  &__adress-text,
+  &__vision-text,
+  &__phone-text,
+  &__email-text {
+    margin: 0;
+    color: $light-black;
+  }
+
+  &__logobox {
+    padding: 29px 0;
   }
 
   &__navbar {
-    background-color: #39AAE1;
+    background-color: #39aae1;
+  }
+
+  &__navbar-icon {
+    filter: grayscale(100%) saturate(0); /* Делаем черно-белым */
+  }
+
+  &__navbar-list {
+    width: 100%;
+  }
+
+  &__nav-link {
+    color: $white !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 1s ease-in-out;
+  }
+
+  &__nav-link:hover,
+  &__nav-link:focus {
+    scale: 1.1;
+
+  }
+
+  &__nav-link--active {
+    color: $white !important;
+    font-weight: 700;
   }
 }

@@ -6,8 +6,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Open+Sans:wght@400;700&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="style/main.min.css" />
     <title>Tourism RZN</title>
@@ -24,7 +28,7 @@
                 <div class="header__adress d-none d-sm-flex">
                   <a
                     href="https://yandex.ru/maps/-/CDU0iD6y"
-                    class="header__adress-link d-flex"
+                    class="header__adress-link d-flex align-items-center gap-1"
                   >
                     <svg
                       class="header__adress-icon"
@@ -49,7 +53,10 @@
                     <p class="header__adress-text">г.Рязань, ул.Связи, д.11</p>
                   </a>
                 </div>
-                <div class="header__vision d-flex" id="header__vision">
+                <div
+                  class="header__vision d-flex align-items-center gap-1"
+                  id="header__vision"
+                >
                   <svg
                     class="header__vision-icon"
                     xmlns="http://www.w3.org/2000/svg"
@@ -75,13 +82,17 @@
             </div>
             <div class="header__bot">
               <div class="container">
-                <div class="row align-items-center">
+                <div
+                  class="header__logobox row align-items-center gap-xl-0 gap-3"
+                >
                   <div class="col-xl-3 d-flex justify-content-center">
-                    <img
-                      src="image/header__logo.png"
-                      alt="logo"
-                      class="header__logo"
-                    />
+                    <a href="index.html" class="header__logo-link">
+                      <img
+                        src="image/header__logo.png"
+                        alt="logo"
+                        class="header__logo"
+                      />
+                    </a>
                   </div>
                   <div class="col-xl-6">
                     <p class="header__subtitle">
@@ -94,12 +105,12 @@
                     </h2>
                   </div>
                   <div
-                    class="col-xl-3 d-none d-sm-flex flex-xl-column justify-content-between"
+                    class="col-xl-3 d-none d-sm-flex flex-xl-column gap-4 justify-content-between"
                   >
                     <div class="header__phone">
                       <a
                         href="tel:+74912289197"
-                        class="header__phone-link d-flex align-items-center gap-2"
+                        class="header__phone-link d-flex align-items-center gap-1"
                       >
                         <svg
                           class="header__phone-icon"
@@ -120,7 +131,7 @@
                     <div class="header__email">
                       <a
                         href="mailto:MUKRMOMC@yandex.ru"
-                        class="header__email-link d-flex align-items-center"
+                        class="header__email-link d-flex align-items-center gap-1"
                       >
                         <svg
                           class="header__email-icon"
@@ -141,10 +152,10 @@
                   </div>
                 </div>
               </div>
-              <nav class="header__navbar navbar navbar-expand-md">
+              <nav class="header__navbar navbar navbar-expand-lg">
                 <div class="container">
                   <button
-                    class="navbar-toggler d-lg-none"
+                    class="navbar-toggler d-lg-none text-white d-flex align-items-center"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId"
@@ -152,33 +163,64 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                   >
-                    <span class="navbar-toggler-icon"></span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-text-left text-white"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
+                      />
+                    </svg>
                   </button>
-                  <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="nav navbar-nav d-flex justify-content-between">
+                  <div
+                    class="collapse navbar-collapse justify-content-center"
+                    id="collapsibleNavId"
+                  >
+                    <ul
+                      class="nav navbar-nav header__navbar-list d-flex justify-content-between align-items-center"
+                    >
                       <li class="nav-item">
-                        <a class="nav-link active" href="#">О нас</a>
+                        <a
+                          class="header__nav-link header__nav-link--active nav-link active"
+                          href="#"
+                          >О нас</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Новости</a>
+                        <a class="header__nav-link nav-link" href="#"
+                          >Новости</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">Мероприятия</a>
+                        <a href="#" class="header__nav-link nav-link"
+                          >Мероприятия</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">Фотогалерея</a>
+                        <a href="#" class="header__nav-link nav-link"
+                          >Фотогалерея</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">Туризм</a>
+                        <a href="#" class="header__nav-link nav-link">Туризм</a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">Отзывы</a>
+                        <a href="#" class="header__nav-link nav-link">Отзывы</a>
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">Контакты</a>
+                        <a href="#" class="header__nav-link nav-link"
+                          >Контакты</a
+                        >
                       </li>
                       <li class="nav-item">
-                        <a href="#" class="nav-link">Видеоблог</a>
+                        <a href="#" class="header__nav-link nav-link"
+                          >Видеоблог</a
+                        >
                       </li>
                     </ul>
                   </div>
@@ -704,10 +746,10 @@
             <div class="row">
               <div class="col">
                 <p class="footer__polit">Политика персоналных данных</p>
-                <p class="footer__date">© l 2022, Рязань </p>
+                <p class="footer__date">© l 2022, Рязань</p>
               </div>
               <div class="col d-flex justify-content-end">
-                <img src="image/footer__img.jpg" alt="" class="footer__img">
+                <img src="image/footer__img.jpg" alt="" class="footer__img" />
               </div>
             </div>
           </div>
