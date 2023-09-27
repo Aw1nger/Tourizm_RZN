@@ -1,4 +1,23 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "base/var";
-@import "section/header"
+@import "section/header";
+@import "section/intro";
+@import "section/about-us";
+@import "section/news";
+@import "section/activities";
+@import "section/feedback";
+@import "section/contacts";
+@import "section/footer";
 
+
+// font-family: 'Merriweather', serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+.container-fluid {
+  padding: 0;
+}
+
+.container {
+  max-width: 1210px !important;
+}
