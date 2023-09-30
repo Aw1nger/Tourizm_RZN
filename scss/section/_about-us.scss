@@ -1,0 +1,17 @@
+@import "../base/var";
+
+.about-us {
+  &__wrapper {
+    padding: 100px 0;
+  }
+
+  &__title {
+    padding-bottom: 30px;
+  }
+
+  &__img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 3px;
+  }
+}

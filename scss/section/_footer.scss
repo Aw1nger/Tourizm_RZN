@@ -1,0 +1,57 @@
+@import "../base/var";
+
+.footer {
+  background: $light-black;
+  color: $white !important;
+
+  &__wrapper {
+    padding: 55px 0 25px 0;
+  }
+
+  &__subtitle {
+    font-family: Merriweather;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 100.5%;
+    padding-bottom: 14px;
+  }
+
+  &__title {
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 97.5%;
+  }
+
+  &__list-item {
+    padding-bottom: 20px;
+  }
+
+  &__list-link {
+    color: $white;
+    text-decoration: none;
+  }
+
+  &__cont-link {
+    color: $white;
+    font-weight: 700;
+    padding-bottom: 18px;
+  }
+
+  &__polit-link {
+    color: $white;
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    text-decoration-line: underline;
+  }
+
+  &__date {
+    font-size: 12px;
+    letter-spacing: 0.72px;
+  }
+
+  &__img {
+    width: 88px;
+    height: 31px;
+  }
+}

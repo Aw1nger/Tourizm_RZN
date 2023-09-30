@@ -235,16 +235,16 @@
           <div class="intro__wrapper position-relative">
             <div class="intro__textbox position-absolute z-1">
               <div class="row flex-row-reverse">
-                <div class="col-xl-8">
+                <div class="col-xl-8 col-xxl-6">
                   <h2 class="intro__title">
-                    Районный организационно-методический центр культуры и
+                    Районный<br> организационно-методический центр культуры и
                     туризма администрации Рязанского муниципального района.
                   </h2>
                   <p class="intro__text">
                     Расскажем, как проводить мероприятия, где найти вдохновение,
                     как работать с документами и освоить компьютер.
                   </p>
-                  <button type="button" class="btn btn-outline-primary">
+                  <button type="button" class="intro__btn btn btn-outline-primary">
                     узнать подробнее
                   </button>
                 </div>
@@ -375,7 +375,7 @@
           <div class="about-us__wrapper">
             <div class="container">
               <div class="row">
-                <div class="col-sm-8">
+                <div class="col-md-8">
                   <h1 class="about-us__title">О нас</h1>
                   <p class="about-us__text">
                     Районный Межпоселенческий Организационно-методический центр
@@ -388,12 +388,14 @@
                     Всероссийском сайте Культура РФ‼
                   </p>
                 </div>
-                <div class="col-sm-4">
-                  <img
+                <div class="col-md-4">
+                  <div class="container">
+                    <img
                     src="image/about-us__img.jpg"
                     alt=""
                     class="about-us__img"
                   />
+                  </div>
                 </div>
               </div>
             </div>
@@ -402,83 +404,87 @@
         <section class="news">
           <div class="news__wrapper">
             <div class="container">
-              <div class="row justify-content-between">
-                <div class="col">
-                  <h1 class="news__title">Новости</h1>
-                </div>
-                <div class="col d-flex justify-content-end">
-                  <a href="#" class="news__link">СМОТРЕТЬ ВСЕ НОВОСТИ »</a>
+              <div class="news__header">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col">
+                    <h1 class="news__title">Новости</h1>
+                  </div>
+                  <div class="col-md d-flex justify-content-md-end">
+                    <a href="#" class="news__link">СМОТРЕТЬ ВСЕ НОВОСТИ »</a>
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="news__card card">
-                    <img
-                      class="news__card-img card-img-top"
-                      src="image/news--01.jpg"
-                      alt="Title"
-                    />
-                    <div class="news__card-body card-body">
-                      <time class="news__card-date" datetime="2020-10-10"
-                        >10.10.2020</time
-                      >
-                      <h4 class="news__card-title card-title">
-                        Фестиваль детского творчества
-                      </h4>
-                      <p class="news__card-text card-text">
-                        26 мая Дядьковский Дом культуры принял заключительный
-                        этап фестиваля детского творчества "Живой родник России"
-                      </p>
-                      <a class="news__card-link card-link" href="#"
-                        >Подробнее</a
-                      >
+              <div class="news__inner">
+                <div class="row">
+                  <div class="col-md-4 gy-md-0 gy-4">
+                    <div class="news__card card">
+                      <img
+                        class="news__card-img card-img-top"
+                        src="image/news--01.jpg"
+                        alt="Title"
+                      />
+                      <div class="news__card-body card-body">
+                        <time class="news__card-date" datetime="2020-10-10"
+                          >10.10.2020</time
+                        >
+                        <h4 class="news__card-title card-title">
+                          Фестиваль детского творчества
+                        </h4>
+                        <p class="news__card-text card-text">
+                          26 мая Дядьковский Дом культуры принял заключительный
+                          этап фестиваля детского творчества "Живой родник России"
+                        </p>
+                        <a class="news__card-link card-link" href="#"
+                          >Подробнее</a
+                        >
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="news__card card">
-                    <img
-                      class="news__card-img card-img-top"
-                      src="image/news--02.jpg"
-                      alt="Title"
-                    />
-                    <div class="news__card-body card-body">
-                      <time class="news__card-date" datetime="2020-10-10"
-                        >10.10.2020</time
-                      >
-                      <h4 class="news__card-title card-title">
-                        Танцевальный баттл и награждение талантов
-                      </h4>
-                      <p class="news__card-text card-text">
-                        Как в районе отпраздновали День молодёжи...
-                      </p>
-                      <a class="news__card-link card-link" href="#"
-                        >Подробнее</a
-                      >
+                  <div class="col-md-4 gy-md-0 gy-4">
+                    <div class="news__card card">
+                      <img
+                        class="news__card-img card-img-top"
+                        src="image/news--02.jpg"
+                        alt="Title"
+                      />
+                      <div class="news__card-body card-body">
+                        <time class="news__card-date" datetime="2020-10-10"
+                          >10.10.2020</time
+                        >
+                        <h4 class="news__card-title card-title">
+                          Танцевальный баттл и награждение талантов
+                        </h4>
+                        <p class="news__card-text card-text">
+                          Как в районе отпраздновали День молодёжи...
+                        </p>
+                        <a class="news__card-link card-link" href="#"
+                          >Подробнее</a
+                        >
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="news__card card">
-                    <img
-                      class="news__card-img card-img-top"
-                      src="image/news--03.jpg"
-                      alt="Title"
-                    />
-                    <div class="news__card-body card-body">
-                      <time class="news__card-date" datetime="2020-10-10"
-                        >10.10.2020</time
-                      >
-                      <h4 class="news__card-title card-title">
-                        День поля 2019
-                      </h4>
-                      <p class="news__card-text card-text">
-                        26 мая Дядьковский Дом культуры принял заключительный
-                        этап фестиваля детского творчества "Живой родник России"
-                      </p>
-                      <a class="news__card-link card-link" href="#"
-                        >Подробнее</a
-                      >
+                  <div class="col-md-4 gy-md-0 gy-4">
+                    <div class="news__card card">
+                      <img
+                        class="news__card-img card-img-top"
+                        src="image/news--03.jpg"
+                        alt="Title"
+                      />
+                      <div class="news__card-body card-body">
+                        <time class="news__card-date" datetime="2020-10-10"
+                          >10.10.2020</time
+                        >
+                        <h4 class="news__card-title card-title">
+                          День поля 2019
+                        </h4>
+                        <p class="news__card-text card-text">
+                          26 мая Дядьковский Дом культуры принял заключительный
+                          этап фестиваля детского творчества "Живой родник России"
+                        </p>
+                        <a class="news__card-link card-link" href="#"
+                          >Подробнее</a
+                        >
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -489,80 +495,90 @@
         <section class="activities">
           <div class="activities__wrapper">
             <div class="container">
-              <div class="row justify-content-between">
-                <div class="col">
-                  <h1 class="activities__title">Мероприятия</h1>
-                </div>
-                <div class="col d-flex justify-content-end">
-                  <a href="#" class="activities__link"
-                    >СМОТРЕТЬ ВСЕ НОВОСТИ »</a
-                  >
+              <div class="activities__header">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col">
+                    <h1 class="activities__title">Мероприятия</h1>
+                  </div>
+                  <div class="col-md d-flex justify-content-md-end">
+                    <a href="#" class="activities__link"
+                      >СМОТРЕТЬ ВСЕ Мероприятия »</a
+                    >
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="activities__card card">
-                    <img
-                      class="activities__card-img card-img-top"
-                      src="image/activities--01.jpg"
-                      alt="Title"
-                    />
-                    <div class="activities__card-body card-body">
-                      <time class="activities__card-date" datetime="2020-10-10"
-                        >10.10.2020</time
-                      >
-                      <h4 class="activities__card-title card-title">
-                        Рязанский караваец
-                      </h4>
-                      <p class="activities__card-text card-text">
-                        24 августа 2019 года в 11 часов около села Кораблино
-                        Рязанского района, состоялся фестиваль " Рязанский
-                        караваец".
-                      </p>
+              <div class="activities__inner">
+                <div class="row">
+                  <div class="col-md-4 gy-md-0 gy-4">
+                    <div class="activities__card card">
+                      <a href="#" class="activities__card-link">
+                        <img
+                        class="activities__card-img card-img-top"
+                        src="image/activities--01.jpg"
+                        alt="Title"
+                      />
+                      <div class="activities__card-body card-body">
+                        <time class="activities__card-date" datetime="2020-10-10"
+                          >10.10.2020</time
+                        >
+                        <h4 class="activities__card-title card-title">
+                          Рязанский караваец
+                        </h4>
+                        <p class="activities__card-text card-text">
+                          24 августа 2019 года в 11 часов около села Кораблино
+                          Рязанского района, состоялся фестиваль " Рязанский
+                          караваец".
+                        </p>
+                      </div>
+                      </a>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="activities__card card">
-                    <img
-                      class="activities__card-img card-img-top"
-                      src="image/activities--02.jpg"
-                      alt="Title"
-                    />
-                    <div class="activities__card-body card-body">
-                      <time class="activities__card-date" datetime="2020-10-10"
-                        >10.10.2020</time
-                      >
-                      <h4 class="activities__card-title card-title">
-                        В Рязани - грибы с глазами
-                      </h4>
-                      <p class="activities__card-text card-text">
-                        Ежегодный фестиваль «В Рязани – грибы с глазами»
-                        проходит в конце сентября на въезде в село Ласково
-                        Рязанского района.
-                      </p>
+                  <div class="col-md-4 gy-md-0 gy-4">
+                    <div class="activities__card card">
+                      <a href="#" class="activities__card-link">
+                        <img
+                        class="activities__card-img card-img-top"
+                        src="image/activities--02.jpg"
+                        alt="Title"
+                      />
+                      <div class="activities__card-body card-body">
+                        <time class="activities__card-date" datetime="2020-10-10"
+                          >10.10.2020</time
+                        >
+                        <h4 class="activities__card-title card-title">
+                          В Рязани - грибы с глазами
+                        </h4>
+                        <p class="activities__card-text card-text">
+                          Ежегодный фестиваль «В Рязани – грибы с глазами»
+                          проходит в конце сентября на въезде в село Ласково
+                          Рязанского района.
+                        </p>
+                      </div>
+                      </a>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="activities__card card">
-                    <img
-                      class="activities__card-img card-img-top"
-                      src="image/activities--03.jpg"
-                      alt="Title"
-                    />
-                    <div class="activities__card-body card-body">
-                      <time class="activities__card-date" datetime="2020-10-10"
-                        >10.10.2020</time
-                      >
-                      <h4 class="activities__card-title card-title">
-                        День семьи, любви и верности
-                      </h4>
-                      <p class="activities__card-text card-text">
-                        Ежегодно 8 июля в Рязанском районе празднуется
-                        Всероссийский День семьи, любви и верности. Мероприятие
-                        проходит в селе Ласково на родине преподобной Февронии.
-                      </p>
+                  <div class="col-md-4 gy-md-0 gy-4">
+                    <div class="activities__card card">
+                      <a href="#" class="activities__card-link">
+                        <img
+                        class="activities__card-img card-img-top"
+                        src="image/activities--03.jpg"
+                        alt="Title"
+                      />
+                      <div class="activities__card-body card-body">
+                        <time class="activities__card-date" datetime="2020-10-10"
+                          >10.10.2020</time
+                        >
+                        <h4 class="activities__card-title card-title">
+                          День семьи, любви и верности
+                        </h4>
+                        <p class="activities__card-text card-text">
+                          Ежегодно 8 июля в Рязанском районе празднуется
+                          Всероссийский День семьи, любви и верности. Мероприятие
+                          проходит в селе Ласково на родине преподобной Февронии.
+                        </p>
+                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -573,57 +589,61 @@
         <section class="feedback">
           <div class="feedback__wrapper">
             <div class="container">
-              <div class="row">
-                <div class="col">
-                  <h1 class="feedback__title">Отзывы</h1>
-                </div>
-                <div class="col d-flex justify-content-end">
-                  <a href="#" class="feedback__link">СМОТРЕТЬ ВСЕ отзывы »</a>
+              <div class="feedback__header">
+                <div class="row justify-content-between align-items-center">
+                  <div class="col">
+                    <h1 class="feedback__title">Отзывы</h1>
+                  </div>
+                  <div class="col-md d-flex justify-content-md-end">
+                    <a href="#" class="feedback__link">СМОТРЕТЬ ВСЕ отзывы »</a>
+                  </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="feedback__card card">
-                    <div class="feedback__card-body card-body">
-                      <h5 class="afeedback__card-title card-title">Светлана</h5>
-                      <time class="afeedback__card-date" datetime="2021-12-21"
-                        >21.12.2021</time
-                      >
-                      <p class="feedback__card-text card-text">
-                        24 августа 2019 года в 11 часов около села Кораблино
-                        Рязанского района, состоялся фестиваль " Рязанский
-                        караваец".
-                      </p>
+              <div class="feedback__inner">
+                <div class="row">
+                  <div class="col-md-4 gy-md-0 gy-4">
+                    <div class="feedback__card card">
+                      <div class="feedback__card-body card-body">
+                        <h5 class="feedback__card-title card-title">Светлана</h5>
+                        <time class="feedback__card-date" datetime="2021-12-21"
+                          >21.12.2021</time
+                        >
+                        <p class="feedback__card-text card-text">
+                          24 августа 2019 года в 11 часов около села Кораблино
+                          Рязанского района, состоялся фестиваль " Рязанский
+                          караваец".
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="feedback__card card">
-                    <div class="feedback__card-body card-body">
-                      <h5 class="afeedback__card-title card-title">
-                        Александра
-                      </h5>
-                      <time class="afeedback__card-date" datetime="2021-12-21"
-                        >21.12.2021</time
-                      >
-                      <p class="feedback__card-text card-text">
-                        Поздравляю моих коллег с Дипломом 2 степени в конкурсе
-                        "Автоклуб-2019"! Спасибо за Ваш профессионализм!
-                      </p>
+                  <div class="col-md-4 gy-md-0 gy-4">
+                    <div class="feedback__card card">
+                      <div class="feedback__card-body card-body">
+                        <h5 class="feedback__card-title card-title">
+                          Александра
+                        </h5>
+                        <time class="afeedback__card-date" datetime="2021-12-21"
+                          >21.12.2021</time
+                        >
+                        <p class="feedback__card-text card-text">
+                          Поздравляю моих коллег с Дипломом 2 степени в конкурсе
+                          "Автоклуб-2019"! Спасибо за Ваш профессионализм!
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="feedback__card card">
-                    <div class="feedback__card-body card-body">
-                      <h5 class="afeedback__card-title card-title">Любовь</h5>
-                      <time class="afeedback__card-date" datetime="2021-12-21"
-                        >21.12.2021</time
-                      >
-                      <p class="feedback__card-text card-text">
-                        Поздравляю моих коллег с Дипломом 2 степени в конкурсе
-                        "Автоклуб-2019"! Спасибо за Ваш профессионализм!
-                      </p>
+                  <div class="col-md-4 gy-md-0 gy-4">
+                    <div class="feedback__card card">
+                      <div class="feedback__card-body card-body">
+                        <h5 class="feedback__card-title card-title">Любовь</h5>
+                        <time class="feedback__card-date" datetime="2021-12-21"
+                          >21.12.2021</time
+                        >
+                        <p class="feedback__card-text card-text">
+                          Поздравляю моих коллег с Дипломом 2 степени в конкурсе
+                          "Автоклуб-2019"! Спасибо за Ваш профессионализм!
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -633,50 +653,47 @@
         </section>
         <section class="contacts">
           <div class="contacts__wrapper position-relative">
-            <iframe
-              src="https://yandex.ru/map-widget/v1/?um=constructor%3A109eb26b7b97a687647071443a7e4a4c009d4c2756bde69356e8477a6a673087&amp;source=constructor"
-              width="100%"
-              height="600"
-              frameborder="0"
-            ></iframe>
-            <div class="contacts__card card position-absolute">
-              <div class="contacts__card-body card-body">
-                <h1 class="contacts__card-title card-title">Контакты</h1>
-                <div class="contacts__card-contbox">
-                  <p class="contacts__card-cont">
-                    Директор:
-                    <span class="contacts__card-link"
-                      >Поддымкина Татьяна Михайловна</span
-                    >
-                  </p>
-                  <p class="contacts__card-cont">
-                    Тел.:
-                    <a href="tel: +74912288653" class="contacts__card-link"
-                      >+7(4912)28-86-53</a
-                    >
-                    <br />
-                    Тел/факс:
-                    <a href="tel: +74912289197" class="contacts__card-link"
-                      >+7(4912)28-91-97</a
-                    >
-                  </p>
-                  <p class="contacts__card-cont">
-                    E-mail:
-                    <a
-                      href="mailto: MUKRMOMC@yandex.ru"
-                      class="contacts__card-link"
-                      >MUKRMOMC@yandex.ru</a
-                    >
-                  </p>
-                  <p class="contacts__card-cont">
-                    Адрес:
-                    <a
-                      href="https://yandex.ru/maps/-/CDU0iD6y"
-                      class="contacts__card-link"
-                    >
-                      390047, г. Рязань, ул. Связи, д.11
-                    </a>
-                  </p>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A109eb26b7b97a687647071443a7e4a4c009d4c2756bde69356e8477a6a673087&amp;source=constructor" width="100%" height="585" frameborder="0"></iframe>
+            <div class="container">
+              <div class="contacts__card card position-absolute my-md-0 my-4">
+                <div class="contacts__card-body card-body">
+                  <h1 class="contacts__card-title card-title">Контакты</h1>
+                  <div class="contacts__card-contbox">
+                    <p class="contacts__card-cont">
+                      Директор:
+                      <span class="contacts__card-link"
+                        >Поддымкина Татьяна Михайловна</span
+                      >
+                    </p>
+                    <p class="contacts__card-cont">
+                      Тел.:
+                      <a href="tel: +74912288653" class="contacts__card-link"
+                        >+7(4912)28-86-53</a
+                      >
+                      <br />
+                      Тел/факс:
+                      <a href="tel: +74912289197" class="contacts__card-link"
+                        >+7(4912)28-91-97</a
+                      >
+                    </p>
+                    <p class="contacts__card-cont">
+                      E-mail:
+                      <a
+                        href="mailto: MUKRMOMC@yandex.ru"
+                        class="contacts__card-link"
+                        >MUKRMOMC@yandex.ru</a
+                      >
+                    </p>
+                    <p class="contacts__card-cont">
+                      Адрес:
+                      <a
+                        href="https://yandex.ru/maps/-/CDU0iD6y"
+                        class="contacts__card-link"
+                      >
+                        390047, г. Рязань, ул. Связи, д.11
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -687,16 +704,16 @@
         <div class="footer__wrapper">
           <div class="container">
             <div class="row">
-              <div class="col-md">
+              <div class="col-md-4 gy-4">
                 <div class="footer__subtitle">
-                  Районный Межпоселенческий Организационно-методический центр
+                  Районный Межпоселенческий<br> Организационно-методический центр
                 </div>
                 <div class="footer__title">
                   Культуры и туризма администрации Рязанского муниципального
                   района
                 </div>
               </div>
-              <div class="col-md">
+              <div class="col-md gy-4">
                 <ul class="footer__list">
                   <li class="footer__list-item">
                     <a href="#" class="footer__list-link">О нас</a>
@@ -712,7 +729,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="col-md">
+              <div class="col-md gy-4">
                 <ul class="footer__list">
                   <li class="footer__list-item">
                     <a href="#" class="footer__list-link">Туризм</a>
@@ -728,7 +745,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="col-md d-flex flex-column g-2">
+              <div class="col-md d-flex flex-column align-items-md-end g-2 gy-4 px-2">
                 <a
                   href="https://yandex.ru/maps/-/CDU0iD6y"
                   class="footer__cont-link"
@@ -745,11 +762,15 @@
             </div>
             <div class="row">
               <div class="col">
-                <p class="footer__polit">Политика персоналных данных</p>
+                <a href="#" class="footer__polit-link">
+                  <p class="footer__polit">Политика персональных данных</p>
+                </a>
                 <p class="footer__date">© l 2022, Рязань</p>
               </div>
               <div class="col d-flex justify-content-end">
-                <img src="image/footer__img.jpg" alt="" class="footer__img" />
+                <a href="#" class="footer__img-link">
+                  <img src="image/footer__img.jpg" alt="" class="footer__img" />
+                </a>
               </div>
             </div>
           </div>
