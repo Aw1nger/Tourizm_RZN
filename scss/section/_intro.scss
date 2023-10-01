@@ -2,7 +2,6 @@
 
 .intro {
   &__textbox {
-    padding-right: 10px;
     top: 50%;
     left: 50%;
     transform: translate(-100%, -50%);
@@ -31,11 +30,11 @@
 
   &__title,
   &__text {
-    padding-bottom: 28px;
+    margin-bottom: 28px;
   }
 
   &__btn {
-    border-radius: 1px;
+    border-radius: 3px;
     border-color: $pink !important;
     color: $pink;
     padding: 10px 35px;
@@ -44,6 +43,18 @@
   &__btn:hover,
   &__btn:focus {
     background-color: $pink !important;
+  }
+
+  @media (max-width: 768px) {
+    &__btn {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+
+    &__title,
+    &__text {
+      margin-bottom: 18px;
+    }
   }
 
   @media (max-width: 1199px) {

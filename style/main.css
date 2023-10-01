@@ -12019,7 +12019,6 @@ textarea.form-control-lg {
 }
 
 .intro__textbox {
-  padding-right: 10px;
   top: 50%;
   left: 50%;
   transform: translate(-100%, -50%);
@@ -12042,16 +12041,25 @@ textarea.form-control-lg {
   height: 650px;
 }
 .intro__title, .intro__text {
-  padding-bottom: 28px;
+  margin-bottom: 28px;
 }
 .intro__btn {
-  border-radius: 1px;
+  border-radius: 3px;
   border-color: #E51170 !important;
   color: #E51170;
   padding: 10px 35px;
 }
 .intro__btn:hover, .intro__btn:focus {
   background-color: #E51170 !important;
+}
+@media (max-width: 768px) {
+  .intro__btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .intro__title, .intro__text {
+    margin-bottom: 18px;
+  }
 }
 @media (max-width: 1199px) {
   .intro__textbox {
@@ -12078,19 +12086,24 @@ textarea.form-control-lg {
   padding: 100px 0;
 }
 .about-us__title {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .about-us__img {
   max-width: 100%;
   width: 100%;
   border-radius: 3px;
 }
+@media (max-width: 767px) {
+  .about-us__title {
+    margin-bottom: 0px;
+  }
+}
 
 .news__wrapper {
   padding-bottom: 100px;
 }
 .news__header {
-  padding-bottom: 55px;
+  margin-bottom: 55px;
 }
 .news__link {
   color: #39AAE1;
@@ -12107,9 +12120,9 @@ textarea.form-control-lg {
 }
 .news__card-date {
   color: #818181;
-  padding-bottom: 12px;
 }
 .news__card-title {
+  margin-top: 12px;
   margin-bottom: 18px;
   color: #0D0802;
   overflow: hidden;
@@ -12125,12 +12138,17 @@ textarea.form-control-lg {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
+@media (max-width: 767px) {
+  .news__header {
+    margin-bottom: 0px;
+  }
+}
 
 .activities__wrapper {
   padding-bottom: 100px;
 }
 .activities__header {
-  padding-bottom: 55px;
+  margin-bottom: 55px;
 }
 .activities__link {
   color: #39AAE1;
@@ -12141,13 +12159,13 @@ textarea.form-control-lg {
   height: 100%;
 }
 .activities__card-body {
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 .activities__card-date {
   color: #818181;
-  padding-bottom: 12px;
 }
 .activities__card-title {
+  margin-top: 12px;
   margin-bottom: 18px;
   color: #0D0802;
   overflow: hidden;
@@ -12164,9 +12182,17 @@ textarea.form-control-lg {
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
+@media (max-width: 767px) {
+  .activities__header {
+    margin-bottom: 0px;
+  }
+}
 
 .feedback__wrapper {
   padding-bottom: 100px;
+}
+.feedback__header {
+  margin-bottom: 55px;
 }
 .feedback__link {
   color: #39AAE1;
@@ -12180,14 +12206,19 @@ textarea.form-control-lg {
 }
 .feedback__card-date {
   color: #818181;
-  padding-bottom: 9px;
 }
 .feedback__card-text {
+  margin-top: 9px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+@media (max-width: 767px) {
+  .feedback__header {
+    margin-bottom: 0px;
+  }
 }
 
 .contacts__card {
@@ -12209,7 +12240,7 @@ textarea.form-control-lg {
   text-decoration: none;
   font-weight: 700;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contacts__card {
     position: static !important;
     transform: none;

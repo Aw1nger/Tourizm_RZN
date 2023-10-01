@@ -5,6 +5,10 @@
     padding-bottom: 100px;
   }
 
+  &__header {
+    margin-bottom: 55px;
+  }
+
   &__link {
     color: $blue;
     text-decoration: none;
@@ -19,14 +23,20 @@
 
   &__card-date {
     color: $gray;
-    padding-bottom: 9px;
   }
 
   &__card-text {
+    margin-top: 9px;
     overflow: hidden; 
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+  }
+
+  @media (max-width: 767px) {
+    &__header {
+      margin-bottom: 0px;
+     }
   }
 }

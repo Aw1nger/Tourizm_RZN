@@ -6,7 +6,7 @@
   }
 
   &__header {
-    padding-bottom: 55px;
+    margin-bottom: 55px;
   }
 
   &__link {
@@ -20,15 +20,15 @@
   }
 
   &__card-body {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
 
   &__card-date {
     color: $gray;
-    padding-bottom: 12px;
   }
-
+  
   &__card-title {
+    margin-top: 12px;
     margin-bottom: 18px;
     color: $black;
     overflow: hidden; 
@@ -45,5 +45,11 @@
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
+  }
+
+  @media (max-width: 767px) {
+    &__header {
+      margin-bottom: 0px;
+     }
   }
 }
