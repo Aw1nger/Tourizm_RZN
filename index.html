@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" href="letsee/letsee.css"/>
     <link rel="stylesheet" href="style/main.min.css" />
     <title>Tourism RZN</title>
   </head>
@@ -74,9 +75,7 @@
                       fill="#50B3E3"
                     />
                   </svg>
-                  <p class="header__vision-text">
-                    Версия сайта для слабовидящих
-                  </p>
+                  <a class="header__vision-text" href="javascript://" onclick="letsee_toggle_panel()">Версия сайта для слабовидящих</a>
                 </div>
               </div>
             </div>
@@ -94,7 +93,7 @@
                       />
                     </a>
                   </div>
-                  <div class="col-xl-6">
+                  <div class="col-xl-7">
                     <p class="header__subtitle">
                       Районный Межпоселенческий Организационно-методический
                       центр
@@ -105,7 +104,7 @@
                     </h2>
                   </div>
                   <div
-                    class="col-xl-3 d-none d-sm-flex flex-xl-column gap-4 justify-content-between"
+                    class="col-xl-2 d-none d-sm-flex flex-xl-column gap-4 justify-content-between"
                   >
                     <div class="header__phone">
                       <a
@@ -128,7 +127,7 @@
                         <p class="header__phone-text">+7 (4912) 28 91 97</p>
                       </a>
                     </div>
-                    <div class="header__email">
+                    <div class="header__email overflow-visible ">
                       <a
                         href="mailto:MUKRMOMC@yandex.ru"
                         class="header__email-link d-flex align-items-center gap-1"
@@ -137,8 +136,8 @@
                           class="header__email-icon"
                           xmlns="http://www.w3.org/2000/svg"
                           width="15"
-                          height="12"
-                          viewBox="0 0 15 12"
+                          height="15"
+                          viewBox="0 0 15 15"
                           fill="none"
                         >
                           <path
@@ -237,14 +236,18 @@
               <div class="row flex-row-reverse">
                 <div class="col-xl-8 col-xxl-6">
                   <h2 class="intro__title">
-                    Районный<br> организационно-методический центр культуры и
-                    туризма администрации Рязанского муниципального района.
+                    Районный<br />
+                    организационно-методический центр культуры и туризма
+                    администрации Рязанского муниципального района.
                   </h2>
                   <p class="intro__text">
                     Расскажем, как проводить мероприятия, где найти вдохновение,
                     как работать с документами и освоить компьютер.
                   </p>
-                  <button type="button" class="intro__btn btn btn-outline-primary">
+                  <button
+                    type="button"
+                    class="intro__btn btn btn-outline-primary"
+                  >
                     узнать подробнее
                   </button>
                 </div>
@@ -276,7 +279,7 @@
                 ></div>
               </div>
               <button
-                class="carousel-control-prev d-none d-md-block"
+                class="intro__slider-prev carousel-control-prev d-none d-md-block"
                 type="button"
                 data-bs-target="#intro__slider"
                 data-bs-slide="prev"
@@ -296,7 +299,7 @@
                 <span class="visually-hidden">Предыдущий</span>
               </button>
               <button
-                class="carousel-control-next d-none d-md-block"
+                class="intro__slider-next carousel-control-next d-none d-md-block"
                 type="button"
                 data-bs-target="#intro__slider"
                 data-bs-slide="next"
@@ -391,10 +394,10 @@
                 <div class="col-md-4">
                   <div class="container">
                     <img
-                    src="image/about-us__img.jpg"
-                    alt=""
-                    class="about-us__img"
-                  />
+                      src="image/about-us__img.jpg"
+                      alt=""
+                      class="about-us__img"
+                    />
                   </div>
                 </div>
               </div>
@@ -432,7 +435,8 @@
                         </h4>
                         <p class="news__card-text card-text">
                           26 мая Дядьковский Дом культуры принял заключительный
-                          этап фестиваля детского творчества "Живой родник России"
+                          этап фестиваля детского творчества "Живой родник
+                          России"
                         </p>
                         <a class="news__card-link card-link" href="#"
                           >Подробнее</a
@@ -454,8 +458,8 @@
                         <h4 class="news__card-title card-title">
                           Танцевальный баттл и награждение талантов
                         </h4>
-                        <p class="news__card-text card-text">
-                          Как в районе отпраздновали День молодёжи...
+                        <p class="news__card-text card-text ">
+                          Как в районе отпраздновали День молодёжи
                         </p>
                         <a class="news__card-link card-link" href="#"
                           >Подробнее</a
@@ -479,7 +483,8 @@
                         </h4>
                         <p class="news__card-text card-text">
                           26 мая Дядьковский Дом культуры принял заключительный
-                          этап фестиваля детского творчества "Живой родник России"
+                          этап фестиваля детского творчества "Живой родник
+                          России"
                         </p>
                         <a class="news__card-link card-link" href="#"
                           >Подробнее</a
@@ -513,23 +518,25 @@
                     <div class="activities__card card">
                       <a href="#" class="activities__card-link">
                         <img
-                        class="activities__card-img card-img-top"
-                        src="image/activities--01.jpg"
-                        alt="Title"
-                      />
-                      <div class="activities__card-body card-body">
-                        <time class="activities__card-date" datetime="2020-10-10"
-                          >10.10.2020</time
-                        >
-                        <h4 class="activities__card-title card-title">
-                          Рязанский караваец
-                        </h4>
-                        <p class="activities__card-text card-text">
-                          24 августа 2019 года в 11 часов около села Кораблино
-                          Рязанского района, состоялся фестиваль " Рязанский
-                          караваец".
-                        </p>
-                      </div>
+                          class="activities__card-img card-img-top"
+                          src="image/activities--01.jpg"
+                          alt="Title"
+                        />
+                        <div class="activities__card-body card-body">
+                          <time
+                            class="activities__card-date"
+                            datetime="2020-10-10"
+                            >10.10.2020</time
+                          >
+                          <h4 class="activities__card-title card-title">
+                            Рязанский караваец
+                          </h4>
+                          <p class="activities__card-text card-text">
+                            24 августа 2019 года в 11 часов около села Кораблино
+                            Рязанского района, состоялся фестиваль " Рязанский
+                            караваец".
+                          </p>
+                        </div>
                       </a>
                     </div>
                   </div>
@@ -537,23 +544,25 @@
                     <div class="activities__card card">
                       <a href="#" class="activities__card-link">
                         <img
-                        class="activities__card-img card-img-top"
-                        src="image/activities--02.jpg"
-                        alt="Title"
-                      />
-                      <div class="activities__card-body card-body">
-                        <time class="activities__card-date" datetime="2020-10-10"
-                          >10.10.2020</time
-                        >
-                        <h4 class="activities__card-title card-title">
-                          В Рязани - грибы с глазами
-                        </h4>
-                        <p class="activities__card-text card-text">
-                          Ежегодный фестиваль «В Рязани – грибы с глазами»
-                          проходит в конце сентября на въезде в село Ласково
-                          Рязанского района.
-                        </p>
-                      </div>
+                          class="activities__card-img card-img-top"
+                          src="image/activities--02.jpg"
+                          alt="Title"
+                        />
+                        <div class="activities__card-body card-body">
+                          <time
+                            class="activities__card-date"
+                            datetime="2020-10-10"
+                            >10.10.2020</time
+                          >
+                          <h4 class="activities__card-title card-title">
+                            В Рязани - грибы с глазами
+                          </h4>
+                          <p class="activities__card-text card-text">
+                            Ежегодный фестиваль «В Рязани – грибы с глазами»
+                            проходит в конце сентября на въезде в село Ласково
+                            Рязанского района.
+                          </p>
+                        </div>
                       </a>
                     </div>
                   </div>
@@ -561,23 +570,26 @@
                     <div class="activities__card card">
                       <a href="#" class="activities__card-link">
                         <img
-                        class="activities__card-img card-img-top"
-                        src="image/activities--03.jpg"
-                        alt="Title"
-                      />
-                      <div class="activities__card-body card-body">
-                        <time class="activities__card-date" datetime="2020-10-10"
-                          >10.10.2020</time
-                        >
-                        <h4 class="activities__card-title card-title">
-                          День семьи, любви и верности
-                        </h4>
-                        <p class="activities__card-text card-text">
-                          Ежегодно 8 июля в Рязанском районе празднуется
-                          Всероссийский День семьи, любви и верности. Мероприятие
-                          проходит в селе Ласково на родине преподобной Февронии.
-                        </p>
-                      </div>
+                          class="activities__card-img card-img-top"
+                          src="image/activities--03.jpg"
+                          alt="Title"
+                        />
+                        <div class="activities__card-body card-body">
+                          <time
+                            class="activities__card-date"
+                            datetime="2020-10-10"
+                            >10.10.2020</time
+                          >
+                          <h4 class="activities__card-title card-title">
+                            День семьи, любви и верности
+                          </h4>
+                          <p class="activities__card-text card-text">
+                            Ежегодно 8 июля в Рязанском районе празднуется
+                            Всероссийский День семьи, любви и верности.
+                            Мероприятие проходит в селе Ласково на родине
+                            преподобной Февронии.
+                          </p>
+                        </div>
                       </a>
                     </div>
                   </div>
@@ -604,7 +616,9 @@
                   <div class="col-md-4 gy-md-0 gy-4">
                     <div class="feedback__card card">
                       <div class="feedback__card-body card-body">
-                        <h5 class="feedback__card-title card-title">Светлана</h5>
+                        <h5 class="feedback__card-title card-title">
+                          Светлана
+                        </h5>
                         <time class="feedback__card-date" datetime="2021-12-21"
                           >21.12.2021</time
                         >
@@ -653,7 +667,12 @@
         </section>
         <section class="contacts">
           <div class="contacts__wrapper position-relative">
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A109eb26b7b97a687647071443a7e4a4c009d4c2756bde69356e8477a6a673087&amp;source=constructor" width="100%" height="585" frameborder="0"></iframe>
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A109eb26b7b97a687647071443a7e4a4c009d4c2756bde69356e8477a6a673087&amp;source=constructor"
+              width="100%"
+              height="585"
+              frameborder="0"
+            ></iframe>
             <div class="container">
               <div class="contacts__card card position-absolute my-md-0 my-4">
                 <div class="contacts__card-body card-body">
@@ -706,7 +725,8 @@
             <div class="row">
               <div class="col-md-4 gy-4">
                 <div class="footer__subtitle">
-                  Районный Межпоселенческий<br> Организационно-методический центр
+                  Районный Межпоселенческий<br />
+                  Организационно-методический центр
                 </div>
                 <div class="footer__title">
                   Культуры и туризма администрации Рязанского муниципального
@@ -745,7 +765,9 @@
                   </li>
                 </ul>
               </div>
-              <div class="col-md d-flex flex-column align-items-md-end g-2 gy-4 px-2">
+              <div
+                class="col-md d-flex flex-column align-items-md-end g-2 gy-4 px-2"
+              >
                 <a
                   href="https://yandex.ru/maps/-/CDU0iD6y"
                   class="footer__cont-link"
@@ -777,7 +799,9 @@
         </div>
       </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="letsee/letsee.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -11981,9 +11981,19 @@ textarea.form-control-lg {
 }
 .header__logobox {
   padding: 29px 0;
+  max-width: 100%;
+}
+.header__phone-text {
+  font-weight: 700;
+  font-size: 12px;
+  color: #39AAE1;
+}
+.header__email-text {
+  color: #39AAE1;
+  font-size: 12px;
 }
 .header__navbar {
-  background-color: #39aae1;
+  background-color: #39AAE1;
 }
 .header__navbar-icon {
   filter: grayscale(100%) saturate(0); /* Делаем черно-белым */
@@ -12090,14 +12100,30 @@ textarea.form-control-lg {
 .news__card {
   height: 100%;
 }
+.news__card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .news__card-date {
   color: #818181;
   padding-bottom: 12px;
 }
 .news__card-title {
-  padding-bottom: 18px;
-  margin: 0 !important;
+  margin-bottom: 18px;
   color: #0D0802;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.news__card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .activities__wrapper {
@@ -12114,18 +12140,29 @@ textarea.form-control-lg {
 .activities__card {
   height: 100%;
 }
+.activities__card-body {
+  padding-bottom: 40px;
+}
 .activities__card-date {
   color: #818181;
   padding-bottom: 12px;
 }
 .activities__card-title {
-  padding-bottom: 18px;
-  margin: 0 !important;
+  margin-bottom: 18px;
   color: #0D0802;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .activities__card-text {
   color: #0D0802;
-  padding-bottom: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
 
 .feedback__wrapper {
@@ -12144,6 +12181,13 @@ textarea.form-control-lg {
 .feedback__card-date {
   color: #818181;
   padding-bottom: 9px;
+}
+.feedback__card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .contacts__card {
@@ -12280,4 +12324,19 @@ a {
 
 .container {
   max-width: 1210px !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  h1, .h1 {
+    font-size: 28px;
+  }
+  h2, .h2 {
+    font-size: 22px;
+  }
+  h4, .h4 {
+    font-size: 18px;
+  }
 }

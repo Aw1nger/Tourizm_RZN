@@ -72,3 +72,21 @@ a {
 .container {
   max-width: 1210px !important;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+}

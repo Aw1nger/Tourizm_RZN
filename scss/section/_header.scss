@@ -1,3 +1,5 @@
+@import "../base/var";
+
 .header {
   &__top {
     background-color: #f9f9f9;
@@ -14,10 +16,22 @@
 
   &__logobox {
     padding: 29px 0;
+    max-width: 100%;
+  }
+
+  &__phone-text {
+    font-weight: 700;
+    font-size: 12px;
+    color: $blue;
+  }
+
+  &__email-text {
+    color: $blue;
+    font-size: 12px;
   }
 
   &__navbar {
-    background-color: #39aae1;
+    background-color: $blue;
   }
 
   &__navbar-icon {

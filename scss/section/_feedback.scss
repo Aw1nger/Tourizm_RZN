@@ -21,4 +21,12 @@
     color: $gray;
     padding-bottom: 9px;
   }
+
+  &__card-text {
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
 }
