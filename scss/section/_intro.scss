@@ -16,6 +16,14 @@
     background-color: rgba($color: #fff, $alpha: 0.8);
   }
 
+  &__slider-prev {
+    opacity: 1 !important;
+  }
+  
+  &__slider-next {
+    opacity: 1 !important;
+  }
+
   &__slider-img {
     width: 100%;
   }
@@ -31,6 +39,10 @@
   &__title,
   &__text {
     margin-bottom: 28px;
+  }
+
+  &__text {
+    max-width: 490px;
   }
 
   &__btn {
@@ -71,7 +83,7 @@
     }
   }
 
-  @media (min-width: 1920px) {
+  @media (min-width: 1921px) {
     &__slider {
       display: none;
     }

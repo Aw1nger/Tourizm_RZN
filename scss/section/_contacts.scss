@@ -12,6 +12,10 @@
     transform: translate(-50%, -50%);
   }
 
+  &__card-body {
+    padding: 0;
+  }
+
   &__card-title {
     color: $white !important;
     padding-bottom: 55px;

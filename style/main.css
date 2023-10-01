@@ -11985,12 +11985,12 @@ textarea.form-control-lg {
 }
 .header__phone-text {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 13px;
   color: #39AAE1;
 }
 .header__email-text {
   color: #39AAE1;
-  font-size: 12px;
+  font-size: 13px;
 }
 .header__navbar {
   background-color: #39AAE1;
@@ -12031,6 +12031,12 @@ textarea.form-control-lg {
   width: 50%;
   background-color: rgba(255, 255, 255, 0.8);
 }
+.intro__slider-prev {
+  opacity: 1 !important;
+}
+.intro__slider-next {
+  opacity: 1 !important;
+}
 .intro__slider-img {
   width: 100%;
 }
@@ -12042,6 +12048,9 @@ textarea.form-control-lg {
 }
 .intro__title, .intro__text {
   margin-bottom: 28px;
+}
+.intro__text {
+  max-width: 490px;
 }
 .intro__btn {
   border-radius: 3px;
@@ -12073,7 +12082,7 @@ textarea.form-control-lg {
     width: 100%;
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1921px) {
   .intro__slider {
     display: none;
   }
@@ -12231,6 +12240,9 @@ textarea.form-control-lg {
   left: 30%;
   transform: translate(-50%, -50%);
 }
+.contacts__card-body {
+  padding: 0;
+}
 .contacts__card-title {
   color: #fff !important;
   padding-bottom: 55px;
@@ -12260,14 +12272,14 @@ textarea.form-control-lg {
   font-family: Merriweather;
   font-size: 12px;
   font-weight: 300;
-  line-height: 100.5%;
-  padding-bottom: 14px;
+  margin-bottom: 14px;
+  line-height: 25px;
 }
 .footer__title {
   font-family: Merriweather;
   font-size: 20px;
   font-weight: 700;
-  line-height: 97.5%;
+  line-height: 30px;
 }
 .footer__list-item {
   padding-bottom: 20px;
