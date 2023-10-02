@@ -23,6 +23,13 @@
     line-height: 30px;
   }
 
+  &__list {
+    column-width: 50%;
+    column-count: 2;
+    column-gap: 10%;
+    padding: 0;
+  }
+
   &__list-item {
     padding-bottom: 20px;
   }
@@ -36,6 +43,7 @@
     color: $white;
     font-weight: 700;
     padding-bottom: 18px;
+    text-align: end;
   }
 
   &__polit-link {

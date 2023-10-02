@@ -11983,14 +11983,17 @@ textarea.form-control-lg {
   padding: 29px 0;
   max-width: 100%;
 }
+.header__title {
+  font-size: 27px;
+}
 .header__phone-text {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 20px;
   color: #39AAE1;
 }
 .header__email-text {
   color: #39AAE1;
-  font-size: 13px;
+  font-size: 20px;
 }
 .header__navbar {
   background-color: #39AAE1;
@@ -12245,7 +12248,7 @@ textarea.form-control-lg {
 }
 .contacts__card-title {
   color: #fff !important;
-  padding-bottom: 55px;
+  margin-bottom: 55px;
 }
 .contacts__card-link {
   color: #fff;
@@ -12258,6 +12261,9 @@ textarea.form-control-lg {
     transform: none;
     max-width: 100%;
     width: 100%;
+  }
+  .contacts__card-title {
+    margin-bottom: 15px;
   }
 }
 
@@ -12281,6 +12287,15 @@ textarea.form-control-lg {
   font-weight: 700;
   line-height: 30px;
 }
+.footer__list {
+  -moz-column-width: 50%;
+       column-width: 50%;
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
+  padding: 0;
+}
 .footer__list-item {
   padding-bottom: 20px;
 }
@@ -12292,6 +12307,7 @@ textarea.form-control-lg {
   color: #fff;
   font-weight: 700;
   padding-bottom: 18px;
+  text-align: end;
 }
 .footer__polit-link {
   color: #fff;
