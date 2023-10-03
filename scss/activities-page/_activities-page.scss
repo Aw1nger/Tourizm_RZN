@@ -1,0 +1,17 @@
+@import "../base/var";
+
+.activities-page {
+  margin: 55px 0;
+
+  &__title {
+    margin-bottom: 55px;
+  }
+
+  &__text {
+    margin-bottom: 35px;
+  }
+
+  &__img {
+    border-radius: 7px;
+  }
+}

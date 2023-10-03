@@ -12233,6 +12233,14 @@ textarea.form-control-lg {
   }
 }
 
+.feedback-page .feedback__card-text {
+  display: block;
+  text-overflow: inherit;
+}
+.feedback-page .feedback__card {
+  height: 100%;
+}
+
 .contacts__card {
   max-width: 391px;
   width: 100%;
@@ -12324,12 +12332,54 @@ textarea.form-control-lg {
   height: 31px;
 }
 
+.news-page {
+  margin: 55px 0;
+}
+.news-page__title {
+  margin-bottom: 55px;
+}
+.news-page__text {
+  margin-bottom: 35px;
+}
+.news-page__img {
+  border-radius: 7px;
+}
+
+.activities-page {
+  margin: 55px 0;
+}
+.activities-page__title {
+  margin-bottom: 55px;
+}
+.activities-page__text {
+  margin-bottom: 35px;
+}
+.activities-page__img {
+  border-radius: 7px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  flex-grow: 1;
 }
 
 h1, .h1 {
@@ -12383,6 +12433,21 @@ a {
 
 .container {
   max-width: 1210px !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Ширина скроллбара */
+}
+
+/* Стилизация полосы прокрутки */
+::-webkit-scrollbar-thumb {
+  background-color: #39AAE1; /* Цвет скроллбара */
+  border-radius: 5px; /* Скругленные углы */
+}
+
+/* Стилизация трека (фона) скроллбара */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Цвет фона скроллбара */
 }
 
 @media (max-width: 768px) {

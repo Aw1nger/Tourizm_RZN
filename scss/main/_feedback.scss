@@ -1,0 +1,53 @@
+@import "../base/var";
+
+.feedback {
+  &__wrapper {
+    padding-bottom: 100px;
+  }
+
+  &__header {
+    margin-bottom: 55px;
+  }
+
+  &__link {
+    color: $blue;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+
+  &__card-title {
+    padding-bottom: 7px;
+    margin: 0 !important;
+    color: $black;
+  }
+
+  &__card-date {
+    color: $gray;
+  }
+
+  &__card-text {
+    margin-top: 9px;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  @media (max-width: 767px) {
+    &__header {
+      margin-bottom: 0px;
+     }
+  }
+}
+
+.feedback-page {
+  .feedback__card-text {
+    display: block;
+    text-overflow: inherit;
+  }
+
+  .feedback__card {
+    height: 100%;
+  }
+}

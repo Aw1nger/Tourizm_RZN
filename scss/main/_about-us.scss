@@ -1,0 +1,22 @@
+@import "../base/var";
+
+.about-us {
+  &__wrapper {
+    padding: 100px 0;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 3px;
+  }
+  @media (max-width: 767px) {
+    &__title {
+      margin-bottom: 0px;
+     }
+  }
+}
